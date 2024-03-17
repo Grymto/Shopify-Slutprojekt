@@ -27,3 +27,17 @@
     }
   }
 }
+
+.section-template--22329014452502__multicolumn_VR9DB9-padding{
+  background-color: $secondary-bg-color;
+}
+
+// img-box
+.media--adapt {
+  padding-bottom:10%;
+}
+
+.multicolumn-list__item.center .media--adapt, .multicolumn-list__item .media--adapt .multicolumn-card__image {
+  width: 24px;
+  height: 24px;
+}

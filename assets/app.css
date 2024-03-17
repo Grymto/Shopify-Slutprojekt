@@ -119,6 +119,16 @@ cart-items .page-width {
   color: #282828;
   font-size: 56px;
 }
+.section-template--22329014452502__multicolumn_VR9DB9-padding {
+  background-color: #F4F4F4;
+}
+.media--adapt {
+  padding-bottom: 10%;
+}
+.multicolumn-list__item.center .media--adapt, .multicolumn-list__item .media--adapt .multicolumn-card__image {
+  width: 24px;
+  height: 24px;
+}
 body {
   margin: 0;
   background: red;
