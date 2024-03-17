@@ -1,0 +1,29 @@
+@import "./variables";
+
+.banner {
+  .banner__media{
+    width:628px;
+    height:628px;
+  }
+
+}
+
+.banner__content {
+
+  .banner__box{
+
+    flex-direction: column;
+    justify-content: flex-start;
+    bottom: 30rem;
+    left: 20rem;
+    display: block;
+    padding-left: 5rem;
+
+
+    .banner__heading{
+      font-family: $primary-font;
+      color: $primary-font-color;
+      font-size: 56px;
+    }
+  }
+}

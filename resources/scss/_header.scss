@@ -1,0 +1,55 @@
+
+body {
+  .page-width {
+    max-width: calc(100% - 200px);
+  }
+}
+
+
+.shopify-section {
+
+  .header-wrapper{
+    height:108px;
+  }
+
+  header{
+    &.header{
+      display:flex;
+      padding-top:30px;
+      padding-bottom:30px;
+
+      nav {
+        &.header__inline-menu {
+          margin:auto;
+
+          li{
+            a{
+              font-size:16px;
+              text-transform: uppercase;
+
+              .header__active-menu-item{
+
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .utility-bar {
+    background-color: black;
+
+    .announcement-bar__message {
+      color:white;
+      font-weight:600;
+      text-transform: uppercase;
+    }
+
+  }
+
+}
+
+
+

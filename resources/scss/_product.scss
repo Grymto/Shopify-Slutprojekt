@@ -1,0 +1,26 @@
+
+
+.swatch-input__label{
+  background-color: #8d8686;
+}
+
+// Hide Buy it now-btn
+.shopify-payment-button__button{
+  display:none;
+}
+
+// Add to cart-btn
+.product-form__submit {
+  background-color: #777;
+  color: white;
+  padding: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border:none;
+
+  &:hover{
+    border:none;
+    background-color: #727272;
+    transition: 0.5s;
+  }
+}

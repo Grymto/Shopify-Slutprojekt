@@ -1,3 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+body .page-width {
+  max-width: calc(100% - 200px);
+}
+.shopify-section .header-wrapper {
+  height: 108px;
+}
+.shopify-section header.header {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.shopify-section header.header nav.header__inline-menu {
+  margin: auto;
+}
+.shopify-section header.header nav.header__inline-menu li a {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.shopify-section .utility-bar {
+  background-color: black;
+}
+.shopify-section .utility-bar .announcement-bar__message {
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.swatch-input__label {
+  background-color: #8d8686;
+}
+.shopify-payment-button__button {
+  display: none;
+}
+.product-form__submit {
+  background-color: #777;
+  color: white;
+  padding: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+}
+.product-form__submit:hover {
+  border: none;
+  background-color: #727272;
+  transition: 0.5s;
+}
+.cart_wrapper {
+  display: flex;
+  width: calc(100% - 200px);
+  margin: auto;
+  padding-top: 100px;
+  max-width: 1200px;
+}
+cart-items {
+  padding: 0;
+  width: 100%;
+}
+cart-items .page-width {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: unset;
+}
+.cart__footer-wrapper {
+  width: 40%;
+  margin-left: 50px;
+  margin-top: 82px;
+}
+.cart__footer-wrapper .page-width {
+  max-width: unset;
+  padding-left: 0;
+  padding-right: 0;
+}
+.cart__footer-wrapper .page-width .cart__blocks {
+  padding: 20px;
+  border: 1px solid #CCC;
+  border-radius: 12px;
+  width: 100%;
+}
+.cart__footer-wrapper .page-width .cart__blocks .totals {
+  justify-content: unset;
+  display: inline;
+}
+.cart__footer-wrapper .page-width .cart__blocks .totals .totals__total-value {
+  float: right;
+}
+.cart__footer-wrapper .page-width .cart__blocks .totals > * {
+  font-size: 22px;
+  display: inline;
+}
+.cart__footer-wrapper .page-width .cart__blocks .totals__total > * {
+  font-size: 22px;
+}
+.cart__footer-wrapper .page-width .cart__blocks .cart__checkout-button {
+  height: 54px;
+  width: 100%;
+  max-width: unset;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #4A4A4A;
+}
+.banner .banner__media {
+  width: 628px;
+  height: 628px;
+}
+.banner__content .banner__box {
+  flex-direction: column;
+  justify-content: flex-start;
+  bottom: 30rem;
+  left: 20rem;
+  display: block;
+  padding-left: 5rem;
+}
+.banner__content .banner__box .banner__heading {
+  font-family: "Prosto One", sans-serif;
+  color: #282828;
+  font-size: 56px;
+}
 body {
   margin: 0;
   background: red;
