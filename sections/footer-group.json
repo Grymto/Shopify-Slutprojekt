@@ -2,8 +2,21 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_4rBFyE": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "\"menus for footer\"\nliquid code needed =)",
+        "color_scheme": "",
+        "padding_top": 52,
+        "padding_bottom": 68
+      }
+    },
     "footer": {
       "type": "footer",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
@@ -21,6 +34,7 @@
     }
   },
   "order": [
+    "custom_liquid_4rBFyE",
     "footer"
   ]
 }

@@ -13,7 +13,8 @@
         "lorem_text": {
           "type": "text",
           "settings": {
-            "text_content": "Lorem ipsum dolor sit amet consectetur. Orci nibh nullam risus adipiscing odio. Neque lacus nibh eros in.\\nLorem ipsum dolor sit amet consectetur. Orci nibh nullam risus adipiscing odio. Neque lacus nibh eros in."
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
           }
         },
         "button": {
@@ -24,7 +25,7 @@
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         }
       },
@@ -47,37 +48,225 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "multicolumn_VR9DB9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QTVLM8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/local_cafe.svg",
+            "title": "450+ KIND OF LOOSEF TEA",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bnyVyP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/redeem.svg",
+            "title": "CERTIFICATED ORGANIC TEAS",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Re97M9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/local_shipping.svg",
+            "title": "FREE DELIVERY",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PnEzYJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sell.svg",
+            "title": "SAMPLE FOR ALL TEAS",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QTVLM8",
+        "column_bnyVyP",
+        "column_Re97M9",
+        "column_PnEzYJ"
+      ],
       "settings": {
-        "title": "Featured products",
+        "title": "",
         "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Learn more",
+        "button_link": "",
+        "color_scheme": "",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 44,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_QiipTz": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_b86pNE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "black-tea"
+          }
+        },
+        "featured_collection_mtAAke": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "green-tea"
+          }
+        },
+        "featured_collection_DD67k9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "white-tea"
+          }
+        },
+        "featured_collection_tKfGrG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "matcha"
+          }
+        },
+        "featured_collection_UFiiqt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "herbal-tea"
+          }
+        },
+        "featured_collection_LpQ9KR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chai"
+          }
+        },
+        "featured_collection_QUcDn7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "oolong"
+          }
+        },
+        "featured_collection_BiqYCF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rooibos"
+          }
+        },
+        "featured_collection_bptHfx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "teaware"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_b86pNE",
+        "featured_collection_mtAAke",
+        "featured_collection_DD67k9",
+        "featured_collection_tKfGrG",
+        "featured_collection_UFiiqt",
+        "featured_collection_LpQ9KR",
+        "featured_collection_QUcDn7",
+        "featured_collection_BiqYCF",
+        "featured_collection_bptHfx"
+      ],
+      "settings": {
+        "title": "Our Collections",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    },
+    "featured_blog_BTQh6e": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Last Blog Posts",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_NWTjBx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tUzwKJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "FOR WHOLESALERS",
+            "heading_size": "h2"
+          }
+        },
+        "text_c3EUbE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer loose tea leaves of the best quality for your business. With a choice of more than 450 different kinds of loose tea, we can make a sophisticated selection that fits exactly in your kind of establishment. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YeBp6X": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get a free consultation",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_tUzwKJ",
+        "text_c3EUbE",
+        "button_YeBp6X"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/teabagfonte.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "multicolumn_VR9DB9",
+    "collection_list_QiipTz",
+    "featured_blog_BTQh6e",
+    "image_with_text_NWTjBx"
   ]
 }
