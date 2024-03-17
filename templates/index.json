@@ -10,12 +10,10 @@
             "heading_size": "h0"
           }
         },
-
         "lorem_text": {
           "type": "text",
           "settings": {
-            "text_content": "Lorem ipsum dolor sit amet consectetur. Orci nibh nullam risus adipiscing odio. Neque lacus nibh eros in.\nLorem ipsum dolor sit amet consectetur. Orci nibh nullam risus adipiscing odio. Neque lacus nibh eros in."
-
+            "text_content": "Lorem ipsum dolor sit amet consectetur. Orci nibh nullam risus adipiscing odio. Neque lacus nibh eros in.\\nLorem ipsum dolor sit amet consectetur. Orci nibh nullam risus adipiscing odio. Neque lacus nibh eros in."
           }
         },
         "button": {
