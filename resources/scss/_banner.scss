@@ -19,6 +19,36 @@
     display: block;
     padding-left: 5rem;
 
+    box-sizing: border-box;
+    display: block;
+    /* padding-right: 24rem; */
+    margin-right: 11rem;
+    margin-top: 30rem;
+    /* width: 456px; */
+    height: 358px;
+
+    .banner__text{
+
+    }
+
+    .banner__buttons{
+      display: block;
+      width:263px;
+      height:56px;
+      background-color: $primary-font-color;
+
+      a{
+        font-family: $secondary-font;
+        color: $secondary-font-color;
+        text-transform: uppercase;
+        //line-height: 20;
+        letter-spacing: 0.1px;
+        font-size:14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
 
     .banner__heading{
       font-family: $primary-font;

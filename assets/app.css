@@ -1,9 +1,52 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 
 
-body .page-width {
-  max-width: calc(100% - 200px);
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh; /* For 100% screen height */
+  display: block;
+  border: 5px dashed deeppink;
+}
+body {
+  width: 100vw; /* For 100% screen width */
+  max-width: 100%;
+  padding: 0;
+  margin: auto;
+  border: 5px dashed blue;
+}
+/* Image for collections */
+.card__inner {
+  width: 360px;
+  height: 360px;
+}
+.card__inner .card__media {
+  width: 360px;
+  height: 360px;
+}
+.card__inner .card__media .media img {
+  width: 360px;
+  height: 360px;
+}
+.card__content {
+  width: 360px;
+}
+.card__content .card__information {
+  display: flex;
+  justify-content: center;
+}
+.card__content .card__information h3 a {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.card__content .card__information h3 a span {
+  display: none;
 }
 .shopify-section .header-wrapper {
   height: 108px;
@@ -49,10 +92,8 @@ body .page-width {
 }
 .cart_wrapper {
   display: flex;
-  width: calc(100% - 200px);
   margin: auto;
   padding-top: 100px;
-  max-width: 1200px;
 }
 cart-items {
   padding: 0;
@@ -113,6 +154,29 @@ cart-items .page-width {
   left: 20rem;
   display: block;
   padding-left: 5rem;
+  box-sizing: border-box;
+  display: block;
+  /* padding-right: 24rem; */
+  margin-right: 11rem;
+  margin-top: 30rem;
+  /* width: 456px; */
+  height: 358px;
+}
+.banner__content .banner__box .banner__buttons {
+  display: block;
+  width: 263px;
+  height: 56px;
+  background-color: #282828;
+}
+.banner__content .banner__box .banner__buttons a {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .banner__content .banner__box .banner__heading {
   font-family: "Prosto One", sans-serif;
