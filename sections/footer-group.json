@@ -26,6 +26,13 @@
             "menu": "customer-service"
           }
         },
+        "text_jNTVjb": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><strong>⚲<\/strong><\/p><p><strong>✉<\/strong><\/p><p><strong>✆<\/strong><\/p>"
+          }
+        },
         "text_PPCcaQ": {
           "type": "text",
           "settings": {
@@ -38,6 +45,7 @@
         "link_list_PTRRgP",
         "link_list_faFmiE",
         "link_list_zmWWQK",
+        "text_jNTVjb",
         "text_PPCcaQ"
       ],
       "settings": {
