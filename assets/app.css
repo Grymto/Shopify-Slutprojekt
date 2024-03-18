@@ -225,6 +225,9 @@ cart-items .page-width {
 .media--adapt {
   padding-bottom: 10%;
 }
+.footer__content-bottom.scroll-trigger.animate--slide-in {
+  display: none;
+}
 body {
   margin: 0;
   background: red;
