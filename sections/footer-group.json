@@ -2,24 +2,47 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_liquid_4rBFyE": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "custom_liquid": "\"menus for footer\"\nliquid code needed =)",
-        "color_scheme": "",
-        "padding_top": 52,
-        "padding_bottom": 68
-      }
-    },
     "footer": {
       "type": "footer",
-      "disabled": true,
+      "blocks": {
+        "link_list_PTRRgP": {
+          "type": "link_list",
+          "settings": {
+            "heading": "COLLECTIONS",
+            "menu": "footer"
+          }
+        },
+        "link_list_faFmiE": {
+          "type": "link_list",
+          "settings": {
+            "heading": "LEARN",
+            "menu": "learn"
+          }
+        },
+        "link_list_zmWWQK": {
+          "type": "link_list",
+          "settings": {
+            "heading": "CUSTOMER SERVICE",
+            "menu": "customer-service"
+          }
+        },
+        "text_PPCcaQ": {
+          "type": "text",
+          "settings": {
+            "heading": "CONTACT US",
+            "subtext": "<p>3 Falahi, Falahi St, Pasdaran Ave, Shiraz, Fars Provieence Iran<\/p><p>Email: amoopur@gmail.com<\/p><p>Tel: +98 9173038406<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_PTRRgP",
+        "link_list_faFmiE",
+        "link_list_zmWWQK",
+        "text_PPCcaQ"
+      ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "color_scheme": "scheme-2",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
@@ -34,7 +57,6 @@
     }
   },
   "order": [
-    "custom_liquid_4rBFyE",
     "footer"
   ]
 }
