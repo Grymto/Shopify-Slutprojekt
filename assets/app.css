@@ -228,6 +228,37 @@ cart-items .page-width {
 .footer__content-bottom.scroll-trigger.animate--slide-in {
   display: none;
 }
+.footer__content-top.page-width {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-evenly;
+}
+.footer-block.grid__item.scroll-trigger.animate--slide-in {
+  flex: 1;
+  width: 25%;
+  max-width: unset;
+  padding: 0px;
+  margin: 0px;
+}
+.footer-block.grid__item.scroll-trigger.animate--slide-in:nth-child(4) {
+  width: 5%;
+  max-width: unset;
+  padding: 0;
+  margin: 0;
+  margin-right: -145px;
+  margin-top: 45px;
+}
+.footer-block.grid__item.scroll-trigger.animate--slide-in:nth-child(4) .footer-block__details-content.rte:nth-child(4) {
+  width: 20px;
+  max-width: unset;
+}
+.footer-block.grid__item.scroll-trigger.animate--slide-in:nth-child(4) .icon2 {
+  margin-top: 58px;
+}
+.footer-block.grid__item.scroll-trigger.animate--slide-in:nth-child(4) .icon3 {
+  margin-top: 26px;
+}
 body {
   margin: 0;
   background: red;
