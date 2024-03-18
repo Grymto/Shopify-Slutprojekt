@@ -48,6 +48,42 @@ body {
 .card__content .card__information h3 a span {
   display: none;
 }
+.multicolumn {
+  height: 216px;
+  margin-bottom: 8rem;
+}
+.multicolumn .page-width {
+  height: 216px;
+}
+.multicolumn .page-width .slider-mobile-gutter ul li .multicolumn-card {
+  width: 25rem;
+}
+.multicolumn .page-width .slider-mobile-gutter ul li .multicolumn-card .multicolumn-card__info h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+}
+.multicolumn .page-width .slider-mobile-gutter ul li .multicolumn-card .multicolumn-card__image-wrapper {
+  height: 0;
+  padding: 0;
+}
+.multicolumn .page-width .center .button--primary {
+  background-color: transparent;
+  border: 1px solid black;
+  width: 281px;
+  height: 56px;
+  margin-top: unset;
+  font-family: "Montserrat", sans-serif;
+  color: #282828;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+}
+.multicolumn-list__item.center .media--adapt, .multicolumn-list__item .media--adapt .multicolumn-card__image {
+  width: 24px;
+  height: 24px;
+}
 .shopify-section .header-wrapper {
   height: 108px;
 }
@@ -188,10 +224,6 @@ cart-items .page-width {
 }
 .media--adapt {
   padding-bottom: 10%;
-}
-.multicolumn-list__item.center .media--adapt, .multicolumn-list__item .media--adapt .multicolumn-card__image {
-  width: 24px;
-  height: 24px;
 }
 body {
   margin: 0;
