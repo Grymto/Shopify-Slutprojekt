@@ -118,6 +118,10 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_leaf.svg",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_input_background_color_mode": "white",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
