@@ -14,3 +14,18 @@ elements.forEach(function(element) {
         children[i].classList.add('icon' + (i + 1));
     }
 });
+
+// javascript to put classes on the banners
+var banners = document.querySelectorAll('.banner__media.media.scroll-trigger.animate--fade-in');
+
+// Loop through each banner element
+banners.forEach(function(banner) {
+    // Get all children of the current banner element
+    var children = banner.children;
+
+    // Loop through each child element
+    for (var i = 0; i < children.length; i++) {
+        // Add a class to each child element with the format 'bannerN' where N is the index + 1
+        children[i].classList.add('banner' + (i + 1));
+    }
+});
