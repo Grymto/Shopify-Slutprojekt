@@ -12,14 +12,12 @@
 html {
   height: 100vh; /* For 100% screen height */
   display: block;
-  border: 5px dashed deeppink;
 }
 body {
   width: 100vw; /* For 100% screen width */
   max-width: 100%;
   padding: 0;
   margin: auto;
-  border: 5px dashed blue;
 }
 /* Image for collections */
 .card__inner {
@@ -126,58 +124,18 @@ body {
   background-color: #727272;
   transition: 0.5s;
 }
-.cart_wrapper {
-  display: flex;
-  margin: auto;
-  padding-top: 100px;
+.cart-products {
+  float: left;
+  width: 70%; /* Justera bredden efter behov */
 }
-cart-items {
-  padding: 0;
-  width: 100%;
-}
-cart-items .page-width {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: unset;
-}
-.cart__footer-wrapper {
-  width: 40%;
-  margin-left: 50px;
-  margin-top: 82px;
-}
-.cart__footer-wrapper .page-width {
-  max-width: unset;
-  padding-left: 0;
-  padding-right: 0;
-}
-.cart__footer-wrapper .page-width .cart__blocks {
-  padding: 20px;
-  border: 1px solid #CCC;
-  border-radius: 12px;
-  width: 100%;
-}
-.cart__footer-wrapper .page-width .cart__blocks .totals {
-  justify-content: unset;
-  display: inline;
-}
-.cart__footer-wrapper .page-width .cart__blocks .totals .totals__total-value {
+.order-summary {
   float: right;
+  width: 30%; /* Justera bredden efter behov */
 }
-.cart__footer-wrapper .page-width .cart__blocks .totals > * {
-  font-size: 22px;
-  display: inline;
-}
-.cart__footer-wrapper .page-width .cart__blocks .totals__total > * {
-  font-size: 22px;
-}
-.cart__footer-wrapper .page-width .cart__blocks .cart__checkout-button {
-  height: 54px;
+.checkout-button {
+  display: block;
   width: 100%;
-  max-width: unset;
-  text-transform: uppercase;
-  font-weight: bold;
-  background-color: #4A4A4A;
+  margin-top: 20px; /* Justera efter behov */
 }
 .banner .banner__media {
   width: 628px;

@@ -1,70 +1,15 @@
-
-.cart_wrapper{
-  display:flex;
-  //width:calc(100% - 200px);
-  margin:auto;
-  padding-top:100px;
-  //max-width: 1200px;
-
+.cart-products {
+  float: left;
+  width: 70%; /* Justera bredden efter behov */
 }
 
-cart-items{
-  padding:0;
-  width:100%;
-
-  .page-width{
-    margin:0;
-    padding:0;
-    width:100%;
-    max-width:unset;
-
-
-  }
+.order-summary {
+  float: right;
+  width: 30%; /* Justera bredden efter behov */
 }
 
-.cart__footer-wrapper{
-  width: 40%;
-  margin-left:50px;
-  margin-top:82px;
-
-  .page-width{
-    max-width: unset;
-    padding-left:0;
-    padding-right:0;
-
-    .cart__blocks{
-      padding:20px;
-      border: 1px solid #CCC;
-      border-radius:12px;
-      width:100%;
-
-      .totals{
-        justify-content: unset;
-        display:inline;
-
-        .totals__total-value{
-          float:right;
-        }
-
-        & > * {
-          font-size:22px;
-          display:inline;
-        }
-      }
-
-      // allting som ligger under totals
-      .totals__total > * {
-        font-size:22px;
-      }
-
-      .cart__checkout-button{
-        height:54px;
-        width:100%;
-        max-width:unset;
-        text-transform: uppercase;
-        font-weight: bold;
-        background-color: #4A4A4A;
-      }
-    }
-  }
+.checkout-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px; /* Justera efter behov */
 }

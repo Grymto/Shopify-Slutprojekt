@@ -17,6 +17,8 @@
   }
 </style>
 
+
+
 <cart-drawer class="drawer{% if cart == empty %} is-empty{% endif %}">
   <div id="CartDrawer" class="cart-drawer">
     <div id="CartDrawer-Overlay" class="cart-drawer__overlay"></div>
@@ -160,6 +162,8 @@
                             </div>
                           {%- endif -%}
 
+
+
                           {%- if item.product.has_only_default_variant == false
                             or item.properties.size != 0
                             or item.selling_plan_allocation != null
@@ -176,6 +180,8 @@
                                   </div>
                                 {%- endfor -%}
                               {%- endif -%}
+
+
 
                               {%- for property in item.properties -%}
                                 {%- assign property_first_char = property.first | slice: 0 -%}
@@ -438,7 +444,30 @@
                   </tbody>
                 </table>
               </div>
+
+              <!-- Här läggs den nya sektionen för order summering -->
+              <div class="order-summary">
+                <h3>Order Summary</h3>
+                <div class="order-summary-items">
+                  <div class="order-summary-item">
+                    <span>Subtotal:</span>
+                    <span>{{ cart.total_price | money_with_currency }}</span>
+                  </div>
+                  <!-- Lägg till fler rader för andra belopp, t.ex. leveranskostnader -->
+                  <!-- Example: <div class="order-summary-item">
+                   <span>Delivery:</span>
+                   <span>{{ shipping_cost | money_with_currency }}</span>
+                 </div> -->
+                  <!-- Lägg till fler rader för andra belopp, t.ex. leveranskostnader -->
+                  <div class="order-summary-item">
+                    <span>Total:</span>
+                    <span>{{ cart.total_price | money_with_currency }}</span>
+                  </div>
+                </div>
+                <button class="checkout-button">Proceed to Checkout</button>
+              </div>
             {%- endif -%}
+
             <p id="CartDrawer-LiveRegionText" class="visually-hidden" role="status"></p>
             <p id="CartDrawer-LineItemStatus" class="visually-hidden" aria-hidden="true" role="status">
               {{ 'accessibility.loading' | t }}
@@ -467,6 +496,7 @@
             </cart-note>
           </details>
         {%- endif -%}
+
 
         <!-- Start blocks -->
         <!-- Subtotals -->
