@@ -297,6 +297,11 @@
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+
+      {%- if settings.show_breadcrumb_nav -%}
+        {% render "breadcrumbs.liquid" %}
+    {%- endif -%}
+
       {{ content_for_layout }}
     </main>
 
