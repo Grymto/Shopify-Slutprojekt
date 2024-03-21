@@ -141,6 +141,10 @@ body {
 }
 .rich-text__wrapper .rich-text__blocks {
   background-color: #F4F4F4;
+  height: 336px;
+  width: 501px;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 10px 20px 10px;
 }
 .rich-text__blocks {
   background-color: #FFFFFF;
