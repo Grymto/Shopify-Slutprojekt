@@ -489,4 +489,12 @@
     }
   ]
 }
+
+
 {% endschema %}
+
+{%- if settings.show_breadcrumb_nav -%}
+  {% render "breadcrumbs.liquid" %}
+{%- endif -%}
+
+
