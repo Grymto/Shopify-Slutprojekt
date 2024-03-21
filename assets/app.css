@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
 
 
 
@@ -136,6 +138,12 @@ body {
   display: block;
   width: 100%;
   margin-top: 20px; /* Justera efter behov */
+}
+.rich-text__wrapper .rich-text__blocks {
+  background-color: #F4F4F4;
+}
+.rich-text__blocks {
+  background-color: #FFFFFF;
 }
 .banner .banner__media {
   width: 628px;
