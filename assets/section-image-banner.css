@@ -93,9 +93,9 @@
     min-height: 56rem;
   }
 
-  .banner--large:not(.banner--adapt) {
+  /* .banner--large:not(.banner--adapt) {
     min-height: 72rem;
-  }
+  } */
 
   .banner__content.banner__content--top-left {
     align-items: flex-start;

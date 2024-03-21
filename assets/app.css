@@ -187,7 +187,7 @@ body {
   height: 308px;
 }
 #shopify-section-template--22336695828758__image_banner_8Q9ntz {
-  height: 400px;
+  height: 200px;
 }
 #Banner-template--22336695828758__image_banner_8Q9ntz {
   height: 308px;
@@ -204,7 +204,7 @@ body {
 }
 /* Targeting the specific section by ID */
 #shopify-section-template--22336695828758__image_banner_8Q9ntz {
-  height: 308px; /* Adjust height as needed */
+  height: 308px !important; /* Adjust height as needed */
 }
 .footer__content-bottom.scroll-trigger.animate--slide-in {
   display: none;
