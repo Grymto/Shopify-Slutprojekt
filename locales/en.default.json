@@ -277,10 +277,10 @@
       }
     },
     "cart": {
-      "title": "Your cart",
+      "title": "MY BAG",
       "caption": "Cart items",
       "remove_title": "Remove {{ title }}",
-      "estimated_total": "Estimated total",
+      "estimated_total": "Order Summary",
       "new_estimated_total": "New estimated total",
       "note": "Order special instructions",
       "checkout": "Check out",
