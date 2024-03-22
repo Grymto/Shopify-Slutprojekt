@@ -154,6 +154,10 @@ body {
 .rich-text__blocks {
   background-color: #FFFFFF;
 }
+.cart__items {
+  float: left;
+  width: 50%;
+}
 .banner .banner__media {
   width: 628px;
   height: 628px;

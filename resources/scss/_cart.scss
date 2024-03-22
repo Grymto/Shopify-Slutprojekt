@@ -31,3 +31,34 @@
 .rich-text__blocks {
   background-color: $secondary-font-color;
 }
+
+
+.cart__items{
+  float: left;
+  width:50%;
+
+  tbody {
+    .cart-item {
+      .cart-item__media {
+        .cart-item__image-container {
+          width: 100px;
+          height: 100px;
+
+          img {
+            width: 100px;
+            height: 100px;
+          }
+        }
+      }
+    }
+
+    .cart-item__details{
+      // distance between product-img and product name
+      padding-left:2rem;
+      // Product name in cart
+      a{
+        width:190px;
+      }
+    }
+  }
+}
