@@ -29,3 +29,16 @@ banners.forEach(function(banner) {
         children[i].classList.add('banner' + (i + 1));
     }
 });
+
+
+
+/* CART */
+
+// Välj elementet som matchar .rich-text__wrapper--left
+var richTextWrapper = document.querySelector('.rich-text__wrapper--left');
+
+// Kontrollera om skärmbredden uppfyller medieförfrågan
+if (window.matchMedia('(min-width: 750px)').matches) {
+    // Ändra justeringsattributet till flex-end om medieförfrågan uppfylls
+    richTextWrapper.style.justifyContent = 'flex-end';
+}

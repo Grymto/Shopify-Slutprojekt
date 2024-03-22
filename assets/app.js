@@ -12,3 +12,7 @@ banners.forEach(function(banner) {
     children[i].classList.add("banner" + (i + 1));
   }
 });
+var richTextWrapper = document.querySelector(".rich-text__wrapper--left");
+if (window.matchMedia("(min-width: 750px)").matches) {
+  richTextWrapper.style.justifyContent = "flex-end";
+}
