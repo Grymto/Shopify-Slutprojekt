@@ -11,8 +11,8 @@
         img {
           border-radius: 3rem;
           max-width:unset;
-          /*width: 628px;
-          height: 628px;*/
+          width: 628px;
+          height: 628px;
         }
       }
     }
@@ -29,6 +29,16 @@
   }
 }
 
+.media{
+  background-color: unset;
+  margin:0;
+  padding:0;
+}
+
+
+.image-with-textmedia.image-with-textmedia--adapt.global-media-settings.background-transparent.media{
+  padding-bottom:unset;
+}
 
 
 
