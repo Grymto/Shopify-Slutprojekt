@@ -92,6 +92,10 @@ body {
 .image-with-text__media.image-with-text__media--adapt.global-media-settings.background-transparent.media {
   padding-bottom: unset !important;
 }
+.media.media--transparent.media--adapt {
+  width: 30px;
+  height: 30px;
+}
 .shopify-section .header-wrapper {
   height: 108px;
 }
