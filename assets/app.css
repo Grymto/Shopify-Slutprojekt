@@ -221,6 +221,19 @@ body {
   margin-right: 5px; /* spacing  */
   font-weight: bold;
 }
+#index_wrapper {
+  background-color: greenyellow;
+}
+#index_wrapper #shopify-section-template--22329014452502__image_banner .banner__media {
+  background-color: blue;
+  width: 628px;
+  height: 628px;
+}
+#index_wrapper #shopify-section-template--22329014452502__image_banner .banner__media img {
+  border-radius: 3rem;
+  width: 628px;
+  height: 628px;
+}
 .banner .banner__media {
   width: 628px;
   height: 628px;

@@ -1,44 +1,49 @@
 //alert("Hello world");
 
 // Get all elements with the class .footer-block__details-content.rte
-var elements = document.querySelectorAll('.footer-block__details-content.rte');
+var elements = document.querySelectorAll(".footer-block__details-content.rte");
 
 // Loop through each element
-elements.forEach(function(element) {
-    // Get all children of the current element
-    var children = element.children;
+elements.forEach(function (element) {
+  // Get all children of the current element
+  var children = element.children;
 
-    // Loop through each child element
-    for (var i = 0; i < children.length; i++) {
-        // Add a class to each child element with the format 'iconN' where N is the index + 1
-        children[i].classList.add('icon' + (i + 1));
-    }
+  // Loop through each child element
+  for (var i = 0; i < children.length; i++) {
+    // Add a class to each child element with the format 'iconN' where N is the index + 1
+    children[i].classList.add("icon" + (i + 1));
+  }
 });
 
+/* IMAGE BANNER */
 // javascript to put classes on the banners
-var banners = document.querySelectorAll('.banner__media.media.scroll-trigger.animate--fade-in');
+var banners = document.querySelectorAll(
+  ".banner__media.media.scroll-trigger.animate--fade-in"
+);
 
 // Loop through each banner element
-banners.forEach(function(banner) {
-    // Get all children of the current banner element
-    var children = banner.children;
+banners.forEach(function (banner) {
+  // Get all children of the current banner element
+  var children = banner.children;
 
-    // Loop through each child element
-    for (var i = 0; i < children.length; i++) {
-        // Add a class to each child element with the format 'bannerN' where N is the index + 1
-        children[i].classList.add('banner' + (i + 1));
+  // Loop through the children and assign classes
+  for (var i = 0; i < children.length; i++) {
+    // Add a class to each child element with the format 'bannerN' where N is the index + 1
+    if (i === 0) {
+      children[i].classList.add("banner1");
+    } else if (i === 1) {
+      children[i].classList.add("banner2");
     }
+  }
 });
-
-
 
 /* CART */
 
-// Välj elementet som matchar .rich-text__wrapper--left
-var richTextWrapper = document.querySelector('.rich-text__wrapper--left');
+// Elementet som matchar .rich-text__wrapper--left
+var richTextWrapper = document.querySelector(".rich-text__wrapper--left");
 
 // Kontrollera om skärmbredden uppfyller medieförfrågan
-if (window.matchMedia('(min-width: 750px)').matches) {
-    // Ändra justeringsattributet till flex-end om medieförfrågan uppfylls
-    richTextWrapper.style.justifyContent = 'flex-end';
+if (window.matchMedia("(min-width: 750px)").matches) {
+  // Ändra justeringsattributet till flex-end om medieförfrågan uppfylls
+  richTextWrapper.style.justifyContent = "flex-end";
 }

@@ -1,5 +1,29 @@
 @import "./variables";
 
+
+
+#index_wrapper{
+  background-color: greenyellow;
+  #shopify-section-template--22329014452502__image_banner{
+
+      .banner__media {
+        background-color: blue;
+        width: 628px;
+        height: 628px;
+        img {
+          border-radius: 3rem;
+          width: 628px;
+          height: 628px;
+        }
+      }
+    }
+  }
+
+
+
+
+
+
 .banner {
   .banner__media{
     width:628px;

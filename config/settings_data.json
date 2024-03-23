@@ -119,9 +119,15 @@
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
     "checkout_logo_image": "shopify:\/\/shop_images\/logo_leaf.svg",
-    "checkout_logo_position": "center",
+    "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#fff8f2",
     "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#f2f2f2",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#1cb325",
+    "checkout_button_color": "#37ce32",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",

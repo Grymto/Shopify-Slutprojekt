@@ -5,11 +5,17 @@ elements.forEach(function(element) {
     children[i].classList.add("icon" + (i + 1));
   }
 });
-var banners = document.querySelectorAll(".banner__media.media.scroll-trigger.animate--fade-in");
+var banners = document.querySelectorAll(
+  ".banner__media.media.scroll-trigger.animate--fade-in"
+);
 banners.forEach(function(banner) {
   var children = banner.children;
   for (var i = 0; i < children.length; i++) {
-    children[i].classList.add("banner" + (i + 1));
+    if (i === 0) {
+      children[i].classList.add("banner1");
+    } else if (i === 1) {
+      children[i].classList.add("banner2");
+    }
   }
 });
 var richTextWrapper = document.querySelector(".rich-text__wrapper--left");
