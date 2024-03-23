@@ -2,22 +2,33 @@
 
 
 
-#index_wrapper{
-  background-color: greenyellow;
-  #shopify-section-template--22329014452502__image_banner{
+.index_wrapper{
 
-      .banner__media {
-        background-color: blue;
-        width: 628px;
-        height: 628px;
+      .banner__media.media.scroll-trigger.animate--fade-in {
+        height:unset !important;
+        height:100%;
+
         img {
           border-radius: 3rem;
-          width: 628px;
-          height: 628px;
+          max-width:unset;
+          /*width: 628px;
+          height: 628px;*/
         }
       }
     }
+
+
+.index_wrapper {
+  .media > *:not(.zoom):not(.deferred-media__poster-button), .media.model-viewer {
+    width: unset;
+    height: unset;
+    position:unset;
+    width: 628px;
+    height: 628px;
+
   }
+}
+
 
 
 
