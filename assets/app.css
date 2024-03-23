@@ -233,7 +233,6 @@ body {
   height: 100%;
 }
 .index_wrapper .banner__media.media.scroll-trigger.animate--fade-in img {
-  border-radius: 3rem;
   max-width: unset;
   width: 628px;
   height: 628px;
