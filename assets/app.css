@@ -221,15 +221,21 @@ body {
   margin-right: 5px; /* spacing  */
   font-weight: bold;
 }
-#index_wrapper {
+.banner__media:first-child,
+.banner__media:first-child,
+.banner__media:first-child {
+  width: 628px;
+  height: 628px;
+}
+#index-wrapper {
   background-color: greenyellow;
 }
-#index_wrapper #shopify-section-template--22329014452502__image_banner .banner__media {
+#index-wrapper #shopify-section-template--22329014452502__image_banner #Banner-template--22329014452502__image_banner .banner__media {
   background-color: blue;
   width: 628px;
   height: 628px;
 }
-#index_wrapper #shopify-section-template--22329014452502__image_banner .banner__media img {
+#index-wrapper #shopify-section-template--22329014452502__image_banner #Banner-template--22329014452502__image_banner .banner__media img {
   border-radius: 3rem;
   width: 628px;
   height: 628px;
