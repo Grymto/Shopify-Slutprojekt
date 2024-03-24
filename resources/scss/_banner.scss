@@ -1,7 +1,7 @@
 @import "./variables";
 
 
-
+/* Image banner on Home-page */
 .index_wrapper{
   .banner__media.media.scroll-trigger.animate--fade-in {
     height:unset !important;
@@ -13,7 +13,6 @@
     }
   }
 }
-
 
 .index_wrapper {
   .media > *:not(.zoom):not(.deferred-media__poster-button), .media.model-viewer {
@@ -67,7 +66,7 @@
     height: 358px;
 
     .banner__text{
-      width:400px;
+      width:370px;
     }
 
     .banner__buttons{

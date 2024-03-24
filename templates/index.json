@@ -13,7 +13,7 @@
         "lorem_text": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet consectetur. Orci nibh nullam risus adipiscing odio. Neque lacus nibh eros in.Lorem ipsum dolor sit amet consectetur. Orci nibh nullam risus adipiscing odio. Neque lacus nibh eros in.",
+            "text": "Lorem ipsum dolor sit amet consectetur. Orci nibh nullam risus adipiscing odio. Neque lacus nibh eros in.                                      Lorem ipsum dolor sit amet consectetur. Orci nibh nullam risus adipiscing odio. Neque lacus nibh eros in.",
             "text_style": "body"
           }
         },
@@ -54,8 +54,7 @@
         "column_QTVLM8": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/local_cafe.svg",
-            "title": "450+ KIND OF LOOSE TEA",
+            "title": "☕︎ 450+ KIND OF LOOSE TEA",
             "text": "",
             "link_label": "",
             "link": ""
@@ -64,8 +63,7 @@
         "column_bnyVyP": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/redeem.svg",
-            "title": "CERTIFICATED ORGANIC TEAS",
+            "title": "⸙ CERTIFICATED ORGANIC TEAS",
             "text": "",
             "link_label": "",
             "link": ""
@@ -74,8 +72,7 @@
         "column_Re97M9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/local_shipping.svg",
-            "title": "FREE DELIVERY",
+            "title": "⛟ FREE DELIVERY",
             "text": "",
             "link_label": "",
             "link": ""
@@ -84,8 +81,7 @@
         "column_PnEzYJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sell.svg",
-            "title": "SAMPLE FOR ALL TEAS",
+            "title": "🏷 SAMPLE FOR ALL TEAS",
             "text": "",
             "link_label": "",
             "link": ""

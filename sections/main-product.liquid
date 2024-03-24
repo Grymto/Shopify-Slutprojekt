@@ -100,6 +100,7 @@
                     </h2>
                   </a>
                 </div>
+                <h4> Hello 🌐 Origin: Iran   🌱 Organic    🌿 Vegan</h4>
               {%- when 'price' -%}
                 <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
@@ -115,8 +116,10 @@
                   </div>
                 {%- endif -%}
                 <div class="product__tax caption rte">
+
                   {%- if cart.taxes_included -%}
-                    {{ 'products.product.include_taxes' | t }}
+                      {% comment %}// remove include_taxes{% endcomment %}
+                    {% comment %}{{ 'products.product.include_taxes' | t }}{% endcomment %}
                   {%- endif -%}
                   {%- if shop.shipping_policy.body != blank -%}
                     {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}

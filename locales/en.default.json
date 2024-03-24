@@ -106,7 +106,7 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "\uD83E\uDDFA ADD TO BAG",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
@@ -130,7 +130,7 @@
         "play_video": "Play video"
       },
       "quantity": {
-        "label": "Quantity",
+        "label": "",
         "input_label": "Quantity for {{ product }}",
         "increase": "Increase quantity for {{ product }}",
         "decrease": "Decrease quantity for {{ product }}",
@@ -256,7 +256,7 @@
       }
     },
     "404": {
-      "title": "Page not found",
+      "title": "Page not found \uD83D\uDC3F\uFE0F",
       "subtext": "404"
     }
   },
