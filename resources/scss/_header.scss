@@ -7,11 +7,9 @@ body {
 
 
 .shopify-section {
-
   .header-wrapper{
     height:108px;
   }
-
   header{
     &.header{
       display:flex;
@@ -37,18 +35,6 @@ body {
       }
     }
   }
-
-  .utility-bar {
-    background-color: black;
-
-    .announcement-bar__message {
-      color:white;
-      font-weight:600;
-      text-transform: uppercase;
-    }
-
-  }
-
 }
 
 

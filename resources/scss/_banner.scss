@@ -3,19 +3,16 @@
 
 
 .index_wrapper{
-
-      .banner__media.media.scroll-trigger.animate--fade-in {
-        height:unset !important;
-        height:100%;
-
-        img {
-
-          max-width:unset;
-          width: 628px;
-          height: 628px;
-        }
-      }
+  .banner__media.media.scroll-trigger.animate--fade-in {
+    height:unset !important;
+    height:100%;
+    img {
+      max-width:unset;
+      width: 628px;
+      height: 628px;
     }
+  }
+}
 
 
 .index_wrapper {
@@ -70,13 +67,13 @@
     height: 358px;
 
     .banner__text{
-
+      width:400px;
     }
 
     .banner__buttons{
       display: block;
       width:263px;
-      height:56px;
+      /*height:56px;*/
       background-color: $primary-font-color;
 
       a{
