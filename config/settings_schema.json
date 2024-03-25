@@ -59,13 +59,8 @@
             "label": "Square"
           },
           {
-<<<<<<< HEAD
             "value": "square-round-corners",
             "label": "Square round corners"
-=======
-            "value":"square-round-corners",
-            "label":"Square round corners"
->>>>>>> origin/main
           },
           {
             "value": "portrait",
@@ -73,11 +68,7 @@
           }
         ],
         "default": "round",
-<<<<<<< HEAD
         "info": "Portrait mode is only available for the variant image type."
-=======
-        "info":"Portrait mode is only available for the variant image type."
->>>>>>> origin/main
       },
       {
         "type": "range",
