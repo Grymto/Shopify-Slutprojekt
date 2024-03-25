@@ -1,23 +1,10 @@
 @import "./variables";
 
-.cart-products {
-  float: left;
-  width: 70%; /* Justera bredden efter behov */
+.cart_wrapper{
+  .gradient.color-scheme-1{
+    height: 1500px;
+  }
 }
-
-.order-summary {
-  float: right;
-  width: 30%; /* Justera bredden efter behov */
-}
-
-.checkout-button {
-  display: block;
-  width: 100%;
-  margin-top: 20px; /* Justera efter behov */
-}
-
-
-
 
 
 .cart__items{

@@ -153,18 +153,8 @@ body {
   width: 264px;
   height: 264px;
 }
-.cart-products {
-  float: left;
-  width: 70%; /* Justera bredden efter behov */
-}
-.order-summary {
-  float: right;
-  width: 30%; /* Justera bredden efter behov */
-}
-.checkout-button {
-  display: block;
-  width: 100%;
-  margin-top: 20px; /* Justera efter behov */
+.cart_wrapper .gradient.color-scheme-1 {
+  height: 1500px;
 }
 .cart__items {
   float: left;
@@ -192,7 +182,7 @@ body {
 .cart__blocks {
   float: right;
   z-index: -1;
-  background-color: skyblue;
+  background-color: #F4F4F4;
   width: 501px;
   padding-bottom: 4rem;
 }
