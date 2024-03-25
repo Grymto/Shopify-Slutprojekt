@@ -1,4 +1,4 @@
-
+@import "./variables";
 
 .swatch-input__label{
   background-color: #8d8686;
@@ -11,12 +11,13 @@
 
 // Add to cart-btn
 .product-form__submit {
-  background-color: #777;
+  background-color: $primary-font-color;
   color: white;
-  padding: 25px;
   font-weight: bold;
   text-transform: uppercase;
   border:none;
+  width:264px;
+  height:56px;
 
   &:hover{
     border:none;
@@ -38,3 +39,18 @@
 //   left: 750px;
 // }
 
+.product_wrapper{
+  .card__inner{
+    width: 264px;
+    height: 264px;
+    .card__media{
+      width: 264px;
+      height: 264px;
+      .media{
+        width: 264px;
+        height: 264px;
+      }
+    }
+
+  }
+}
