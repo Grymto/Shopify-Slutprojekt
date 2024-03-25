@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 
 
@@ -122,19 +120,23 @@ body {
   display: none;
 }
 .product-form__submit {
-  background-color: #282828;
+  background-color: #777;
   color: white;
-  /*padding: 25px;*/
+  padding: 25px;
   font-weight: bold;
   text-transform: uppercase;
   border: none;
-  width: 256px;
-  height: 56px;
 }
 .product-form__submit:hover {
   border: none;
   background-color: #727272;
   transition: 0.5s;
+}
+.rich-text__blocks.left {
+  height: unset !important;
+}
+.rich-text__wrapper.rich-text__wrapper--left.page-width {
+  justify-content: flex-start !important;
 }
 .cart-products {
   float: left;

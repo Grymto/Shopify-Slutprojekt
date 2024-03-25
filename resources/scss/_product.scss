@@ -24,3 +24,17 @@
     transition: 0.5s;
   }
 }
+// layout for text
+.rich-text__blocks.left{
+  height:unset !important;
+}
+.rich-text__wrapper.rich-text__wrapper--left.page-width{
+  justify-content: flex-start !important;
+}
+
+// .rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in{
+//   position: relative;
+//   width: 150px;
+//   left: 750px;
+// }
+
