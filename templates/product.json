@@ -133,8 +133,8 @@
         "content_alignment": "left",
         "color_scheme": "scheme-2",
         "full_width": true,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "related-products": {

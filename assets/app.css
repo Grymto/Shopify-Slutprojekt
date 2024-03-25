@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prosto+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
 
 
 
@@ -51,12 +53,14 @@ body {
 .multicolumn {
   height: 216px;
   margin-bottom: 8rem;
+  width: 100vw;
 }
 .multicolumn .page-width {
   height: 216px;
+  width: 100vw;
 }
 .multicolumn .page-width .slider-mobile-gutter ul li .multicolumn-card {
-  width: 25rem;
+  width: 28rem;
 }
 .multicolumn .page-width .slider-mobile-gutter ul li .multicolumn-card .multicolumn-card__info h3 {
   font-family: "Montserrat", sans-serif;
@@ -118,12 +122,14 @@ body {
   display: none;
 }
 .product-form__submit {
-  background-color: #777;
+  background-color: #282828;
   color: white;
-  padding: 25px;
+  /*padding: 25px;*/
   font-weight: bold;
   text-transform: uppercase;
   border: none;
+  width: 256px;
+  height: 56px;
 }
 .product-form__submit:hover {
   border: none;
@@ -220,6 +226,7 @@ body {
   margin-right: 5px; /* spacing  */
   font-weight: bold;
 }
+/* Image banner on Home-page */
 .index_wrapper .banner__media.media.scroll-trigger.animate--fade-in {
   height: unset !important;
   height: 100%;
@@ -264,7 +271,7 @@ body {
   height: 358px;
 }
 .banner__content .banner__box .banner__text {
-  width: 400px;
+  width: 370px;
 }
 .banner__content .banner__box .banner__buttons {
   display: block;
