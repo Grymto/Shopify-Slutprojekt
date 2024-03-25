@@ -317,6 +317,9 @@ body {
 .media--adapt {
   padding-bottom: 10%;
 }
+.index_wrapper .banner__media img {
+  margin-left: 25%;
+}
 .banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in {
   height: 308px;
 }
