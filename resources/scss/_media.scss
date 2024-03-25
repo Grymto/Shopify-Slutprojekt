@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1229px){
+    
+    .index_wrapper{
+     
+        .banner__media{
+          img{
+            margin-left: 0%;
+          }
+        }
+      
+      }
+}
+
+@media only screen and (min-width: 1366px) {
+    
+    .index_wrapper{
+     
+        .banner__media{
+          img{
+            margin-left: 15%;
+          }
+        }
+      
+      }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 3440px) {
+    
+    .index_wrapper{
+     
+        .banner__media{
+          img{
+            margin-left: 25%;
+          }
+        }
+      
+      }
+}
